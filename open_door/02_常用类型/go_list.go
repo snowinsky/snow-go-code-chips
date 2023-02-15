@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-// go里边不固定的数组叫切片，是不是list被申请专利了呀，就天天造概念
+// go里边不固定的数组叫切片，是不是list被申请专利了呀，就天天新造概念玩
 func main() {
 	//切片的新建
 	var intList1 []int
