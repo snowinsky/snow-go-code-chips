@@ -22,7 +22,7 @@ func main() {
 	var digitStr1 = "1545"
 	var digitStr2 = "0.1"
 	var digitStr3 = "-3.1415926"
-
+	//字符串转数字
 	digit1, _ := strconv.Atoi(digitStr1)
 	fmt.Println(digit1)
 	digit2, _ := strconv.ParseFloat(digitStr2, 8)
@@ -30,6 +30,7 @@ func main() {
 	digit3, _ := strconv.ParseFloat(digitStr3, 16)
 	fmt.Println(digit3)
 
+	//数字转字符串
 	digitInt := 2343242
 	var digitFloat float64 = 3.1415665465
 	var digitIntStr = strconv.Itoa(digitInt)
