@@ -273,33 +273,6 @@ func main() {
 		//fmt.Println("index=%d, value=%d", indexOfList2, valueOfList2)
 	}
 
-	//map
-	//map的创建
-	var map1 map[int]string = make(map[int]string)
-	var map2 map[string]int = make(map[string]int)
-	//map的添加元素
-	map1[0] = "zero"
-	map1[1] = "one"
-	map1[2] = "two"
-	map2["three"] = 3
-	map2["four"] = 4
-	map2["five"] = 5
-	//map的删除元素
-	delete(map1, 1)
-	delete(map2, "four")
-	//map的遍历元素
-	fmt.Println(map1)
-	fmt.Println(map2)
-	//对map来讲，range遍历的是key
-	//range 迭代map时，返回的是key
-	for val := range map1 {
-		fmt.Println(val, map1[val])
-	}
-	//map的是否存在元素，通过map的key直接获取value时同时返回是否存在的bool值，可以先判断是否存在，然后再拿取值。
-	//如果map的value恰巧是nil，那就尴尬了，不知道是key不存在还是真的value就是nil
-	var anyValue, isExists = map2["five"]
-	fmt.Println(anyValue, isExists)
-
 	//递归，就是方法里自己调用自己
 
 	//类型转换

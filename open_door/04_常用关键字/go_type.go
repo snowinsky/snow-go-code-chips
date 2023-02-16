@@ -61,4 +61,13 @@ func main() {
 	fmt.Println(aChinesePerson.sayName())
 	fmt.Println(aChinesePerson.sayChineseName())
 
+	var myStringList1 = make(MyStringList, 5)
+	fmt.Println(myStringList1.toString())
+
+}
+
+type MyStringList []string
+
+func (p MyStringList) toString() string {
+	return "ssss" + strconv.Itoa(len(p)) + "SSS"
 }
