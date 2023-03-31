@@ -3,7 +3,6 @@ package main
 import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"hello_world/api"
 	"time"
 )
 
@@ -14,5 +13,7 @@ func main() {
 	log.Info().Time("sdafs{}", time.Now()).Send()
 
 	//api.GormDemoMain()
-	api.ErrorsDemo()
+	//api.ErrorsDemo()
+	//api.ExcelDemo()
+	//api.GinDemo()
 }
