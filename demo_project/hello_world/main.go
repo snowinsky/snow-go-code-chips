@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
+	"hello_world/api"
 	"time"
 )
 
@@ -16,4 +17,5 @@ func main() {
 	//api.ErrorsDemo()
 	//api.ExcelDemo()
 	//api.GinDemo()
+	api.DigDemo()
 }
