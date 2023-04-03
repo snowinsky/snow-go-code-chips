@@ -17,5 +17,9 @@ func main() {
 	//api.ErrorsDemo()
 	//api.ExcelDemo()
 	//api.GinDemo()
-	api.DigDemo()
+	//api.DigDemo()
+	api.NowDemo()
+	api.DecimalDemo()
+	api.ConfigorDemo()
+	api.RestyDemo()
 }

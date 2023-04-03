@@ -116,7 +116,12 @@ func updateDemo() {
 	}
 
 	//如果只想更新指定的几个字段
-	conn.Model(&firstNewPerson).Where("id = ?", 17).UpdateColumn("first_name", "one+2+3").UpdateColumn("create_timestamp", time.Now()).Updates("first_name")
+	conn.
+		Model(&firstNewPerson).
+		Where("id = ?", 17).
+		UpdateColumn("first_name", "one+2+3").
+		UpdateColumn("create_timestamp", time.Now()).
+		Updates("first_name")
 
 	//使用最原始的sql进行更新
 	updateByNativeSql := GoPerson{}

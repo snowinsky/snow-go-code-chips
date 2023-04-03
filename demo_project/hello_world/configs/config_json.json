@@ -1,0 +1,13 @@
+{
+  "parent": "father",
+  "children": [
+    {
+      "name": "name1",
+      "index": 1
+    },
+    {
+      "name": "name2",
+      "index": 2
+    }
+  ]
+}

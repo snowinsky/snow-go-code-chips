@@ -1,0 +1,7 @@
+parent:
+  mother
+children:
+  - name: name5
+    index: 5
+  - name: name6
+    index: 6
