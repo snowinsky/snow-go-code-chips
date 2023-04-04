@@ -22,4 +22,5 @@ func main() {
 	api.DecimalDemo()
 	api.ConfigorDemo()
 	api.RestyDemo()
+	api.FileDemo()
 }
